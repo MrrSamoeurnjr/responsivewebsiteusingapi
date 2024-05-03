@@ -1,0 +1,12 @@
+<!-- <p>business works!</p> -->
+<div class="container">
+    <div class="row">
+        <div *ngFor="let c of getapibusinessservice" class="col-lg-3">
+            <div class="box">
+                <img src="{{c.urlToImage}}"  width="100%">
+                <h5>{{c.title}}</h5>
+                <a href="{{c.url}}" target="_blank">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>

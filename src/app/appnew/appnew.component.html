@@ -1,0 +1,12 @@
+<!-- <p>appnew works!</p> -->
+<div class="container">
+    <div class="row" >
+        <div *ngFor="let k of getapiappleservice" class="col-lg-3">
+            <div class="box">
+                <img src="{{k.urlToImage}}"  width="100%">
+                <h5>{{k.title}}</h5>
+                <a href="{{k.url}}" target="_blank">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
